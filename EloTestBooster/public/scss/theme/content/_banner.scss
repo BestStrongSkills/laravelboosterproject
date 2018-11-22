@@ -1,0 +1,65 @@
+/**
+ * 	7.3 Banner
+ */
+.banner-bottom{
+	&.bg-gradient{
+		  background: url("../images/1920x150.jpg");
+		  background-size: cover;
+		  overflow: hidden;
+		  position: relative;
+		  padding-top:30px;
+	}
+	h3{
+		color:#fff;
+		font-size: 36px;
+		margin-bottom: -5px;
+		text-transform: none;
+	}
+	p{
+		color:#fff;
+		font-size: 16px;
+		font-weight: 300;
+	}
+	.right-banner{
+		text-align: right;
+		margin-top: 21px;
+		a{
+		    color: #fff;
+		    text-transform: uppercase;
+		    font-weight: 400;
+		    border-radius: 18px;
+		    border: 1px solid #fff;
+		    padding: 10px 25px 11px;
+		    &:hover{
+		    	background: #ff2759;
+		    	border: 1px solid #ff2759;
+		    }
+		}
+	}
+}
+.banner-bottom-2{
+	padding: 23px 0px 22px;
+	h3{
+		margin-top: 5px;
+		font-size: 24px;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 300;
+	}
+	.right-banner{
+		text-align: right;
+	}
+	.btn-default{
+		background: none;
+	    border: 1px solid #fff;
+	    color: #fff;
+	    padding: 8px 21px;
+	    font-size: 16px;
+	    letter-spacing: 1px;
+	    text-transform: capitalize;
+	    &:hover, &:focus, &:active,&:hover:active, &:hover:focus ,&:focus:active{
+	    	color: #3C98EC;
+	    	background: #fff;
+	    }
+	}
+}

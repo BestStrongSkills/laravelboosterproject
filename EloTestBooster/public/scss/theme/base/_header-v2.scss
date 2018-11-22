@@ -1,0 +1,140 @@
+/**
+ * 2.2 Header-v2
+ */
+.admin-bar .header-v2 .header-top,
+.admin-bar .header-v1 .header-sticky{
+	top: 32px !important;
+}
+.fixed-header {
+	.header-v2 {
+		.header-logo {
+		  margin-top: 21px;
+		  left: 15px;
+		  -webkit-transform: none;
+		  -moz-transform: none;
+		  -ms-transform: none;
+		  -o-transform: none;
+		  transform: none;
+		}
+		.main-navigation{
+	    	padding-top: 16px;
+	    }
+	}
+}
+.header-v2.is-sticky .header-top{
+	.mega-menu > li {
+		&.opn-active-menu{
+			a{
+				color: #000000;
+			}
+		}
+		> a{
+			&:hover{
+				color: #000000;
+			}
+		}
+	}
+}
+.header-v2{
+	background: #e15f00; 
+    .main-navigation{
+    	text-align:right;
+    	padding-top: 0;
+    }
+	.mega-menu {
+		> li{
+			display: inline-block;
+			position: relative;
+			a{
+				color:#fff;
+				text-transform: uppercase;
+				padding:27px 25px;
+				display: block;
+				&:hover{
+					color: $primary_color;
+				}
+			}
+			&:last-child{
+				a{
+					padding-right: 0;
+				}
+			}
+		}
+		li{
+			&:hover{
+				> ul{
+				    opacity: 1;
+				    visibility: visible;
+				    -webkit-transform: translateY(0);
+				    -moz-transform: translateY(0);
+				    -ms-transform: translateY(0);
+				    -o-transform: translateY(0);
+				    transform: translateY(0);
+				}
+			}
+			.caret{
+				display: none;
+			}
+			ul{
+			    position: absolute;
+			    left: 0;
+			    width: 200px;
+			    top: 100%;
+			    background: #e15f00;
+			    text-align: left;
+			    opacity: 0;
+			    visibility: hidden;
+			    -moz-transform: translateY(25px);
+			    -webkit-transform: translateY(25px);
+			    -ms-transform: translateY(25px);
+			    -o-transform: translateY(25px);
+			    transform: translateY(25px);
+			    li{
+			    	display: block;
+			    	&:last-child{
+			    		ul{
+				    		right: 100%;
+				    		left: auto;
+				    	}
+			    	}
+			    	a{
+			    		padding: 10px 25px;
+			    		font-size: 13px;
+			    	}
+			    	ul{
+			    		left: 100%;
+			    		top: 0;
+			    	}
+			    }
+			}
+		}
+	}
+	.header-sticky-logo{
+		display: none;
+	}
+}
+.header-v2.is-sticky {
+	.header-top {
+	  width: 100%;
+	  z-index: 9999;
+	  top: 0;
+	  position: fixed;
+	  background: #e15f00;
+	}
+	.header-logo {
+	    margin-top: 0;
+	    position: static;
+	    -webkit-transform: none;
+	    -moz-transform: none;
+	    -ms-transform: none;
+	    -o-transform: none;
+	    transform: none;
+	    img{
+	    	height: 70px;
+	    	width: 85px;
+	    }
+	}
+	.main-navigation {
+	    padding-top: 0;
+	}
+}

@@ -1,0 +1,72 @@
+/**
+ * 7.14. page 404
+ */
+.page-404{
+	overflow: hidden;
+	width: 100%;
+	color: #fff;
+	background: rgba(0, 0, 0, 0) url("../images/background/404.jpg") no-repeat scroll center top / cover ;
+	h1 {
+ 		 font-size: 140px;
+	 	 font-weight: 900;
+	 	 letter-spacing: 5px;
+	 	 color:#fff;
+	}
+	h4 {
+	  color: #ffffff;
+	  text-transform: uppercase;
+	}
+	p {
+	    color: #ffffff;
+	    padding-bottom: 30px;
+	}
+	 input {
+	    background: #fff;
+	    border: medium none;
+	    height: 40px;
+	    line-height: normal;
+	    padding: 10px;
+	    width: 457px;
+	}
+	.btn-default {
+	  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	  border: 1px solid #fff;
+	  color: #fff;
+	}
+	.copy-right {
+	    bottom: 20px;
+	    left: 0;
+	    position: absolute;
+	    width: 100%;
+	}
+	.button-404{
+		padding-bottom: 40px;
+		.btn{
+			&:hover{
+				border:1px solid #ff2759;
+			}
+		}
+	}
+}
+.page-404-container {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.content-404 { 
+    padding-top: 0;
+    overflow: hidden;
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.page-404 .page-404-container, 
+.page-404 .container, 
+.page-404 .row {
+    height: 100%;
+}

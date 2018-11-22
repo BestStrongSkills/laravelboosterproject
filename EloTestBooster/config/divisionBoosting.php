@@ -1,0 +1,20 @@
+<?php 
+return [
+'1_1' 			=> 'Diamond',
+'1_2' 		    => 'Platinum',
+'1_3' 		    => 'Gold',
+'1_4' 			=> 'Silver',
+'1_5' 			=> 'Bronze',
+'1-6'           => 'Master',
+'1-7'           => 'Champion',
+'2-1' 		=> 'DivisionI',
+'2-2' 		=> 'DivisionII',
+'2-3' 		=> 'DivisionIII',
+'2-4' 		=> 'DivisionIV',
+'2-5' 		=> 'DivisionV',
+'3-1' 		=> '0-20Lp',
+'3-2' 		=> '21-40Lp',
+'3-3' 	    => '41-60Lp',
+'3-4' 		=> '61-80Lp',
+'3-5' 		=> '81-100Lp',
+];

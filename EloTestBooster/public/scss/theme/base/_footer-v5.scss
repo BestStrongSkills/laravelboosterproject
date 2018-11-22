@@ -1,0 +1,132 @@
+/**
+ * 	3.5 Footer V5
+ */
+.footer-v5{
+	.copyright address{
+		color: #c3c3c3;
+		a{
+			color: #c3c3c3;
+			&:hover{
+				color: #3c98ec;
+			}
+		}
+	}
+	.newsletter_2, .newsletter_1{display: none;}
+	.footer-bottom{
+		background: #0c0c0c;
+		padding-top: 20px;
+		.footer-social{
+			margin-top: -7px;
+			ul{
+				li{
+					display: inline-block;
+					padding-left: 4px;
+					a{
+						color: #686868;
+						display: block;
+						height: 35px;
+						width: 35px; 
+						text-align: center;
+						&:hover{
+							color: #fff;
+							background: #3c98ec;
+							border-radius: 100%;
+						}
+						i{
+							margin-top: 11px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.footer-office{
+		background: #121214;
+		padding: 90px 0 51px 0;
+	}
+	.widget .title-block{
+		color: #fff;
+		font-size: 20px;
+		text-transform: capitalize;
+	}
+	.widget{
+		color: #a7a7a7;
+		font-size: 13px;
+		p{
+			line-height: 22px;
+		}
+	}
+	.textwidget img{
+		margin: -15px 0 20px;
+	}
+	.widget{
+		overflow: visible;
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+	.form-newletter .input{
+		border: 1px solid #262626;
+		background: transparent;
+		border-radius: 0; 
+		width: 100%;
+		height: 45px;
+		padding-left: 17px;
+	}
+	input.submit{
+		background: #3c98ec none repeat scroll 0 0;
+	    border-radius: 30px;
+	    color: #fff;
+	    margin-top: 17px;
+	    padding: 0 23px;
+	    letter-spacing: 0.5px;
+	    &:hover{
+	    	background: #fff;
+	    	color: #3c98ec;
+	    }
+	}
+	.widget_nav_menu ul li{
+		padding-bottom: 12px;
+		a:hover{
+			color: #3c98ec;
+		}
+	}
+	.menu-navigation-container{
+		margin-top: 5px;
+	}
+}
+.footer{
+	.widget_meta ul, .widget_pages ul, .widget_nav_menu ul, .widget_archive ul{
+		padding-left: 0;
+			li {
+				a{
+					color: #a7a7a7;
+					font-size: 13px;
+				}
+			}
+	}
+	.footer-v5 .input.placeholder,
+	.footer-v5 .input.placeholder:hover{
+		border: 1px solid #262626;
+	}
+	.mc4wp-alert{
+		margin-top: 10px;
+	}
+}
+.twitter-tweet{
+	i{
+		font-size: 18px;
+		color: #777;
+		float: left;
+		margin-right: 16px;
+	}
+	.tweet-text{
+		overflow: hidden;
+		font-size: 13px;
+		color: #a7a7a7;
+	}
+}
+.text-newletter{
+	margin-top: 5px;
+    line-height: 22px;
+    padding-bottom: 2px;
+}

@@ -1,0 +1,156 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #000a12;
+  min-height: 100vh;
+  background-image: url("../../images/memberarea/background.jpg");
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative; 
+}
+  html body 
+  {
+    background-color: rgba(0, 11, 20, 0.9);
+    height: 100%;
+    position: relative;
+    top: 0; 
+  }
+
+header {
+  color: rgba(255, 255, 255, 0.9);
+  padding: 50px 0; 
+}
+  header .nav-wrapper 
+  {
+    color: #88692c;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold; 
+  }
+  header .profile-wrapper img 
+  {
+    width: 50px;
+    height: 50px; 
+  }
+
+/*==================================*/
+
+.sidenav 
+{
+    display: none;
+    height: 100%;
+    width: 278px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a 
+{
+    padding: 20px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+.sidenav a:hover 
+{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn 
+{
+    /*position: absolute;*/
+    position: relative;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 25px;
+}
+
+@media screen and (max-height: 450px) 
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+}
+/*===============================*/
+.memberareaFont
+{
+  color: #fff;
+  font-family: 'BigNoodleTitling';
+  font-size: 60px;
+  padding-top:30px;
+  box-sizing: border-box; 
+}
+.sub-title
+{
+  color: #fff;
+  font-family: 'BigNoodleTitling';
+  font-size: 30px;
+  box-sizing: border-box;
+}
+.text-center
+{
+  color: #fff;
+  font-family: 'BigNoodleTitling';
+  font-size: 30px;
+  box-sizing: border-box;
+}
+/*================================*/
+
+
+.boosterpayment{
+  border:0px !important;border-bottom:2px solid #a67c33!important;
+}
+
+
+/*==footer==*/
+
+.footerMenu1 
+{
+    color: #fff;
+    font-family: 'BigNoodleTitling';
+    font-size: 20px;
+    margin-top: 5%;
+    box-sizing: border-box; 
+}
+.advertiseText
+{
+    color: #fff;
+    font-family: 'BigNoodleTitling';
+    font-size: 17px;
+    margin-top:5%;
+    box-sizing: border-box; 
+}
+.text-bj {
+    color: #fff;
+    font-family: 'BigNoodleTitling';
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 10%;
+    box-sizing: border-box; 
+}
+.footerlist-unstyled {
+    color: #fff;
+    font-family: 'BigNoodleTitling';
+    font-size: 20px;
+    margin-top: 10%;
+    box-sizing: border-box; 
+}
+.ul li, ol li {
+    list-style: none;
+  }
+.companytext {
+    color: #fff;
+    font-family: 'BigNoodleTitling';
+    font-size: 20px;
+    box-sizing: border-box; 
+}
+
+

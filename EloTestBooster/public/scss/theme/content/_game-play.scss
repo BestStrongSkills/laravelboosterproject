@@ -1,0 +1,103 @@
+/**
+ * 7.18 Game Play
+ */
+.scroll-element, .scroll-element div{
+	background: none;
+}
+.desc-game{
+	h3{
+		color: #3d3d3d;
+		font-weight: bold;
+		font-size: 18px;
+		padding-bottom: 8px;
+		margin-top: 4px;
+	}
+	p{
+		color: #797979;
+		padding-bottom: 6px;
+		line-height: 22px;
+	}
+	.scrollbar-inner {
+		padding-right: 40px;
+	}
+}
+.game-play{
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+	z-index: 99;
+	margin-top: -100px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+	padding-bottom: 66px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 35px;
+    .scroll-wrapper > .scroll-content{
+    	overflow: hidden !important;
+    }
+	.has-overlay::before{
+		opacity: 1;
+		z-index: 0;
+	}
+	.video-container {
+	    padding: 106px 0;
+	}
+	.btn-play{
+		width: 102px;
+		height: 102px;
+		&::after {
+		  border: 1px solid #ffffff;
+		  height: 102px;
+		  width: 102px;
+		}
+		&::before {
+		  border: 3px solid #ffffff;
+		  color: #ffffff;
+		  font-size: 20px;
+		  height: 80px;
+		  line-height: 75px;
+		  text-indent: 2px;
+		  width: 80px;
+		  content: "\f04b";
+		  font-family: FontAwesome;
+		}
+	}
+}
+.game-play-bg{
+	background:#f8f8f8 url("../images/background/bg-game.png") no-repeat center bottom;
+	position: relative;
+	&.border-top::before, &.border-top::after {
+	  z-index: 90;
+	}
+}
+.left-video-scroll{
+	background: url("../images/728x477.jpg");
+}
+.title-gallery{
+	padding-bottom: 30px;
+}
+.vc_custom_1459392266823 {
+    background-position: center;
+}
+.character {
+  background-image: url("../images/background/bg-game-2.png");
+  background-position: 0 center;
+  padding-top: 65px;
+  position: relative;
+}
+.character.border-top:before,
+.character.border-top:after {
+	border-bottom: 100px solid #f1f1f1;
+}
+.character-thumbnail .checked .thumbnail-game .name	{
+	color: #e15f00;
+}
+.thumbnail-game img:focus::selection{
+	background: none;
+}
+.thumbnail-game img::-moz-selection{
+	background: none;
+}
+.thumbnail-game img::-webkit-selection{
+	background: none;
+}

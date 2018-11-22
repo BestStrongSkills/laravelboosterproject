@@ -1,0 +1,109 @@
+/**
+ * 	3.0 Footer Style
+		3.1 Footer V1
+ */
+.footer{
+	.input.placeholder, 
+	.input.placeholder:hover, 
+	.input.placeholder:focus, 
+	.input.placeholder:active, 
+	.input.placeholder:hover:active,
+	.input.placeholder:active:hover,
+	.input.placeholder:focus:active,
+	.input.placeholder:active:focus{
+		border: none;
+		outline: none;
+	}
+}
+.footer-v1{
+	background: url('../images/1920x415.jpg') no-repeat center center; 
+	background-size: cover;
+	padding-top: 94px;
+	&:before{
+		opacity: 0.8;
+	}
+	&:after{
+		content: "";
+	    height: 1px;
+	    left: 0;
+	    opacity: 1;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+		background: #700877;
+		background: -moz-linear-gradient(-45deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+		background: -webkit-linear-gradient(-45deg, #700877 0%,#ff2759 100%,#ff2759 100%);
+		background: linear-gradient(135deg, #700877 0%,#ff2759 100%,#ff2759 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#700877', endColorstr='#ff2759',GradientType=1 );
+	}
+	.top-footer{
+		margin-bottom: 46px;
+	}
+	.newsletter_2{
+		display: none;
+	}
+	.newsletter_1{
+		margin-bottom: 27px;
+		h2 {
+		  color: #fff;
+		  margin-bottom: 13px;
+		}
+		p {
+		    color: #cacaca;
+		    font-size: 14px;
+		    font-weight: normal;
+		    text-transform: none;
+		} 
+	}
+	.form-newletter{
+		display: inline-block;
+  		position: relative;
+		.input {
+		  color: #888;
+		  width: 542px;
+		  height: 55px;
+		  border-radius: 20px;
+		  padding-left: 20px;
+    	  padding-right: 60px;
+		}
+	}
+	.footer-bottom{
+		margin-top: 16px;
+		padding-bottom: 17px;
+		address {
+		  color: #cacaca;
+		  span{
+		  	color: #fff;
+		  	font-weight: 400;
+		  }
+		}
+	}
+	address {
+		a{
+			&:hover{
+				color: #fff;
+			}
+		}
+	}	
+	.form-newletter .submit {
+	  background: rgba(0, 0, 0, 0) url("../images/bg-submit.png") no-repeat scroll 2px center;
+	  display: block;
+	  height: 100%;
+	  padding: 0;
+	  position: absolute;
+	  right: 0;
+	  text-indent: -9999em;
+	  top: 0;
+	  width: 50px;
+	}
+}
+address {
+	a{
+		font-weight: 400;
+		color: #fff;
+		&:focus,
+		&:hover{
+			color: #ff2759;
+		}
+	}
+}

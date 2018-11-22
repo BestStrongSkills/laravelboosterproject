@@ -1,0 +1,62 @@
+/*------------------------------------------------------------------
+[Table of contents]
+1.0 Common & Reset style
+2.0 Header Style
+	2.1 Header V1
+	2.2 Header V2
+	2.3 Header V3
+	2.4 Header V4
+	2.5 Header V5
+	2.6 Mega Menu
+3.0 Footer Style
+	3.1 Footer V1
+	3.2 Footer V2
+	3.3 Footer V3
+	3.4 Footer V4
+	4.5 Footer V5
+4.0 Widget
+5.0 Slider
+6.0 Breadcrumb
+7.0 Content
+	7.1 Content
+	7.2 Our Team
+	7.3 Banner
+	7.4 About Us
+	7.5 Blog
+	7.6 Testimonial
+	7.7 Event
+	7.8 Services
+	7.9 Refresh
+	7.10 Portfolio
+	7.11 Features
+	7.12 Amount
+	7.13 Pricing Table
+	7.14 Page-404
+	7.15 Accordion
+	7.16 Character
+	7.17 Video Home
+	7.18 Game Play
+	7.19 Gallery
+	7.20 App screen
+	7.21 Shop
+	7.22 Cart
+	7.23 Customs HTML
+	7.24 Contact
+-------------------------------------------------------------------*/
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+$rtl: 0;
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400,300,700,900);
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('fonts/MyriadPro-Regular.eot'); 
+	src: url('../fonts/MyriadPro-Regular.otf')  format('opentype'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@import "config/config_skin"; 
+@import "typography";
+@import "config_theme";  
+@import "theme/theme-main"; 
+@import "responsive";

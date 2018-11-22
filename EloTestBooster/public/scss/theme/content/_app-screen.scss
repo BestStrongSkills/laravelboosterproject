@@ -1,0 +1,217 @@
+/**
+ * 7.20 App Screen
+ */
+.app_screenshot{
+	position: relative;
+	.title-block {
+	  position: absolute;
+	  top: 129px;
+	  z-index: 9;
+	}
+	.tp-bullets {
+		margin-left: 21px;
+		.tp-bullet {
+		  background: #ababab;
+		  border-radius: 50%;
+		  height: 7px;
+		  width: 7px;
+		  margin-top: 23px;
+		  margin-left:4px;
+		  margin-right: 4px;
+		  &:hover,&.selected{
+		  	background: #ff2759;
+		  	height: 10px;
+		  	width: 10px;
+		  	margin-top: 21px;
+		  	margin-left:3px;
+		  	border: 1px solid #ff2759;
+		  }
+		}
+	}
+	.screen-default{
+		&.open{
+			-webkit-animation: 0.8s ease-out 0s normal none 1 running screen-default;
+			-moz-animation: 0.8s ease-out 0s normal none 1 running screen-default;
+			-ms-animation: 0.8s ease-out 0s normal none 1 running screen-default;
+			-o-animation: 0.8s ease-out 0s normal none 1 running screen-default;
+			animation: 0.8s ease-out 0s normal none 1 running screen-default;
+		}
+		h3{
+			color: #ff2759;
+			text-transform: uppercase;
+			padding-left: 40px;
+			position: relative;
+			font-weight: 400;
+			margin-bottom: 30px;
+			&:before{
+				width: 30px;
+				height: 30px;
+				content: "";
+				position: absolute;
+				left: 0;
+				top: 0;
+				border: 1px solid #ff2759;
+				border-radius: 50%;
+				display: block;
+				top: -3px;
+			}
+			&:after{
+				width: 16px;
+				height: 16px;
+				content: "";
+				background: #ff2759;
+				position:absolute;
+				left: 7px;
+				top:4px;
+				border-radius: 50%;
+			}
+		}
+		p{
+			text-transform: none;
+			color: #787878;
+			font-size: 14px;
+			font-weight: 400;
+			margin-bottom: 22px;
+			line-height: 23px;
+		}
+		a{
+			padding: 8px 37px 10px 27px;
+			text-transform: capitalize;
+			color: #fff;
+			background: #ff2759;
+			border-radius: 20px;
+			position: relative;
+			display: inline-block;
+			margin-top: 7px;
+			font-weight: bold;
+			&:before{
+				position: absolute;
+				content: "\f101";
+				font-family: FontAwesome;
+				right: 20px;
+				top:50%;
+				-webkit-transform: translateY(-50%);
+				-moz-transform: translateY(-50%);
+				-ms-transform: translateY(-50%);
+				-o-transform: translateY(-50%);
+				transform: translateY(-50%);
+			}
+			&:hover, &:focus{
+				color: #fff;
+				background: #ff2759;
+			}
+		}
+	}
+	.apps-default{
+		display: block;
+		position: relative;
+		text-indent: -9999em;
+		cursor: pointer;
+		width: 25px; 
+		height: 25px;
+		&:before{
+			content: "";
+			height: 13px;
+			width: 13px;
+			display: block;
+			border-radius: 50%;
+			background: #ff2759;
+	        text-indent: 1em;
+	        position: absolute;
+	        top:6px;
+	        left: 6px;
+		}
+		
+		&.active{
+			&:after{
+				position: absolute;
+				content: "";
+				top:0;
+				left: 0;
+				width: 25px;
+				height: 25px;
+				border-radius: 50%;
+				-webkit-animation: 3s infinite screen-effect;
+				-moz-animation: 3s infinite screen-effect;
+				-ms-animation:3s infinite screen-effect;
+				-o-animation: 3s infinite screen-effect;
+				animation: 3s infinite screen-effect;
+				border:1px solid #ff2759;
+			}
+		}
+	}
+	.title-app{
+		font-size: 16px;
+		text-transform: uppercase;
+		color:#3d3d3d;
+		font-weight: 400;
+	}
+}
+.app_screenshot .screen-default a{
+	transition: all 0.3s ease-in 0s !important; 
+}
+.next_layout_1, .next_layout_2, .next_layout_3{cursor: pointer;}
+@keyframes screen-default {
+	0% {
+	    opacity: 0;
+	    transform: translateX(50px);
+	}
+	100% {
+	    opacity: 1;
+	    transform: translateX(0px);
+	}
+}
+@-webkit-keyframes screen-default {
+	0% {
+	    opacity: 0;
+	    transform: translateX(50px);
+	}
+	100% {
+	    opacity: 1;
+	    transform: translateX(0px);
+	}
+}
+@keyframes screen-effect {
+	0% {
+	    transform: scale(0.5);
+	}
+	100% {
+	     transform: scale(1);
+	}
+}
+@-webkit-keyframes screen-effect {
+	0% {
+	    -webkit-transform: scale(0.5);
+	}
+	100% {
+	     -webkit-transform: scale(1);
+	}
+}
+@-moz-keyframes screen-effect {
+	0% {
+	    -moz-transform: scale(0.5);
+	}
+	100% {
+	     -moz-transform: scale(1);
+	}
+}
+@-ms-keyframes screen-effect {
+	0% {
+	    -ms-transform: scale(0.5);
+	}
+	100% {
+	     -ms-transform: scale(1);
+	}
+}
+@-o-keyframes screen-effect {
+	0% {
+	    -o-transform: scale(0.5);
+	}
+	100% {
+	     -o-transform: scale(1);
+	}
+}
+.get-app{
+  padding-bottom: 103px;
+  padding-top: 95px;
+}

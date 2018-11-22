@@ -1,0 +1,90 @@
+/**
+ * 7.12 Amount
+ */
+.some-facts{
+	padding-bottom: 95px;
+	.title-block{
+		padding-bottom: 50px;
+	}
+}
+.amount-content {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    height: 200px;
+    vertical-align: middle;
+    display: table;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    &:before{
+    	border-radius: 50%;
+    	z-index: -1;
+    	opacity: 1;
+    	background:rgba(0, 0, 0, 0) linear-gradient(45deg, #700877 0%, #ff2759 100%, #ff2759 100%) repeat scroll 0 0;
+    }
+    .amount {
+	    width: 190px;
+	    height: 190px;
+	    vertical-align: middle;
+	    background: #fff;
+	    position: relative;
+	    border-radius: 50%;
+	    margin: 5px auto;
+	    display: table;
+	    &:before{
+	    	position: absolute;
+	    	content: "";
+	    	width: 137px;
+	    	height: 137px;
+	    	border-radius: 50%;
+	    	border: 1px solid #ebebeb;
+	    	left: 50%;
+		    top: 50%;
+		    -webkit-transform: translate(-50%, -50%);
+		    -moz-transform: translate(-50%, -50%);
+		    -ms-transform: translate(-50%, -50%);
+		    -o-transform: translate(-50%, -50%);
+		    transform: translate(-50%, -50%);
+	    }
+	}
+	.img-icon {
+	    position: absolute;
+	    width: 58px;
+	    height: 58px;
+	    background: #ff2759;
+	    border-radius: 50%;
+	    bottom: -26px;
+	    left: 50%;
+	    color: #fff;
+	    line-height: 56px;
+	    font-size: 25px;
+	    -webkit-transform: translateX(-50%);
+	    -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	    -o-transform: translateX(-50%);
+	    transform: translateX(-50%); 
+	}
+	.amount-desc {
+	    position: absolute;
+	    width: 100%;
+	    top: 50%;
+	    left: 0;
+	    -webkit-transform: translateY(-50%);
+	    -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    -o-transform: translateY(-50%);
+	    transform: translateY(-50%);
+	    h3 {
+		    font-size: 30px;
+		    font-weight: bold;
+		    margin: 0 0 6px;
+		    color: #000;
+		}
+		h5 {
+		    color: #4b4b4b;
+		    font-weight: 400;
+		    margin: 0;
+		}
+	}
+}

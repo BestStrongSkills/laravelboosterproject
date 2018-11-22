@@ -1,0 +1,152 @@
+/**
+ * 7.16 Charactor
+ */
+.character.wpb_content_element {
+	margin-bottom: 0;
+}
+.character {
+	.vc_column-inner{
+		background-position: center center;
+	}
+}
+.character-info{
+	h3{
+		font-weight: bold;
+		font-size: 18px;
+		margin-bottom: 20px;
+		color: #3d3d3d;
+	}
+	blockquote{
+		margin: 23px 0 29px;
+		p{
+			line-height: 20px;
+		}
+	}
+}
+.character-info{
+	width: 60%;
+	float: left;
+}
+.img-character {
+  text-align: center;
+  img{
+  	display: inline-block;
+  }
+}
+.character_description{
+	color:#5b5b5b;
+	blockquote{
+		color: #777;
+		padding-left: 20px;
+		&:before{
+			display: none;
+		}
+		&:after{
+			height: 80%;
+			width: 2px;
+			left: 0;
+			background: #e15f00;
+		}
+	}
+}
+.character-viewport{
+	&.owl-carousel {
+		.owl-item img {
+		  width: auto;
+		  display: inline-block;
+		}
+		.owl-controls .owl-page{
+			display: none;
+		}
+	}
+
+}
+.character-thumbnail{
+	padding:20px 0 15px;
+	background: #fff;
+	margin-top:29px;
+	position: relative;
+	border:5px solid #e1e1e1;
+	&.owl-carousel {
+		.owl-item img {
+		  width: auto;
+		  display: inline-block;
+		}
+	}
+	&:before{
+		content: "";
+		height: 53px;
+		width: 100%;
+		background: rgba(0, 0, 0, 0) url("../images/background/bg-thumbnail.png") repeat scroll 0 0;
+		position: absolute;
+		left: 0;
+		top: -55px;
+	}
+	.thumbnail-game{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		cursor: pointer;
+		
+		.name{
+			color:#3d3d3d;
+			font-size: 16px;
+			font-weight: bold;
+			margin-top: 4px;
+		}
+	}
+	&.checked{
+		.name{
+			color: #e15f00;
+		}
+	}
+}
+.owl-carousel {
+	.owl-controls {
+		height: auto;
+		margin: 0;
+		.owl-buttons {
+			div {
+				width: 40px;
+				height: 40px;
+				background: #000;
+				color: #fff;
+				text-align: center;
+				line-height: 38px;
+				text-indent: -999em;
+				position: absolute;
+				top:50%;
+				transform:translateY(-50%);
+				-ms-transform:translateY(-50%);
+				-moz-transform:translateY(-50%);
+				-o-transform:translateY(-50%);
+				-webkit-transform:translateY(-50%);
+				&:hover,&:focus{
+					background: #e15f00;
+				}
+				&.owl-prev{
+					left: -23px;
+					&::after {
+					    content: "\f104";
+					    font-family: FontAwesome;
+					    font-size:20px;
+					    left: 14px;
+					    position: absolute;
+					    text-indent: 1px;
+					}
+				}
+				&.owl-next{
+					right: -23px;
+					&::after {
+					    content: "\f105";
+					    font-family: FontAwesome;
+					    font-size: 20px;
+					    right:14px;
+					    position: absolute;
+					    text-indent: 1px;
+					}
+				}
+			}
+		}
+  	}
+}

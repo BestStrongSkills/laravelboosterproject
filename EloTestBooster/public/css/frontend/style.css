@@ -1,0 +1,494 @@
+body
+{
+	margin:0;
+	padding:0;
+	
+}
+#primary 
+{
+    background-image: url(../../images/homepage/sampleback.png);
+    background-size: 100% auto;
+    background-position: top center;
+}
+.logo {
+    text-align: center !important;
+    margin: auto;
+    margin-top: 476px !important;
+    margin-left: 10;
+    padding-left: 8px;
+    width: 19%;
+}
+a {
+    color: #fff;
+}
+/*.footer-logo{
+    margin-top:80px;
+}*/
+.advertiseText
+{
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    font-size: 17px;
+    margin-top:5%;
+}
+.footerMenu1
+{
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    font-size: 20px;
+    margin-top:5%;
+}
+.footerlist-unstyled
+{
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    font-size: 20px;
+    margin-top:10%; 
+}
+.companytext
+{
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    font-size: 20px;
+}
+.boott 
+{
+    text-align: center;
+}
+.boott h3 
+{
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    letter-spacing: 1px;
+    font-size: 34px;
+    margin: 0;
+}
+.enjoy h1 
+{
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    letter-spacing: 1px;
+    font-size: 114px;
+}
+a:focus, a:hover 
+{
+    color: #fff !important;
+}
+.boott img 
+{
+    width: 82%;
+    margin: auto;
+    position: relative;
+    top: -21px;
+}
+.boott h1
+{
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 59px;
+
+    
+}
+.boott h1 a:hover 
+{
+    text-shadow:rgba(255,255,255,0.5)!important;
+    color:yellow !important;
+
+}
+.welcome h2 
+{
+    text-align: center;
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    font-size: 51px;
+    letter-spacing: 1px;
+}
+.welcome h1 
+{
+    text-align: center;
+    color: #fff;
+	font-family: 'bignoodletitlingregular';
+	font-size: 87px;
+    letter-spacing: 1px;
+}
+h1.header-logo img {
+    display: none;
+}
+.Divisions 
+{
+    padding-top: 61%;
+}
+.enjoy img 
+{
+    margin: auto;
+    /* padding-bottom: 10%; */
+    margin-top: -4%;
+}
+
+.text 
+{
+    margin: 0;
+    float: left !important;
+}
+.BoostExpress 
+{
+    position: relative;
+    top: -29px;
+}
+.BoostExpress h1 
+{
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    letter-spacing: 1px;
+    font-size: 91px;
+    text-align: center;
+    margin: 0;
+    /* position: relative; */
+    /* top: -18px; */
+}
+.text p 
+{
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 22px;
+	    border-bottom: 2px solid #86642b;
+    padding: 0 0 67px 0;
+}
+.text img 
+{
+    margin: auto;
+	
+}
+.mainaa-abck 
+{
+    background: #000a14;
+}
+.BoostExpress img 
+{
+    margin-top: -5%;
+    /* margin: auto; */
+    margin-left: 1%;
+}
+.Bannerrrr img 
+{
+    margin: auto;
+    position: relative;
+    top: -43px;
+}
+.man-a p 
+{
+    margin: auto;
+    width: 30%;
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    letter-spacing: 1px;
+    font-size: 17px;
+    text-align: center;
+    border-top: 2px solid #86642b;
+    padding-top: 15px;
+    margin-bottom: 18px;
+}
+.secondimg p 
+{
+    margin: auto;
+    width: 100%;
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    letter-spacing: 1px;
+    font-size: 17px;
+    text-align: center;
+    border-top: 2px solid #86642b;
+    padding-top: 15px;
+    margin-bottom: 18px;
+}
+.man-a h1 
+{
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    letter-spacing: 1px;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    /* position: relative; */
+    /* top: -18px; */
+}
+.secondimg h1 
+{
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    letter-spacing: 1px;
+    font-size: 60px;
+	margin-top: 14px !important;
+    text-align: center;
+    margin: 0;
+    /* position: relative; */
+    /* top: -18px; */
+}
+.bg-gray 
+{
+   
+    display: none;
+}
+.man-a img 
+{
+    margin: auto;
+    width: 18%;
+    margin-top: 6%;
+}
+img.img-responsive.vnff 
+{
+    width: 35%;
+    margin-top: -2%;
+}
+.secondimg img 
+{
+    /* text-align: center; */
+    margin: auto;
+    /* width: 84%; */
+}
+img.img-responsive.sbd-mh 
+{
+    width: 69%;
+}
+.thredimg img
+{
+    margin: auto;
+}
+.riven-heading.text-left 
+{
+    display: none;
+}
+img.img-responsive.sbd-mhkk 
+{
+    width: 42%;
+}
+img.img-responsive.chooese 
+{
+    width: 62%;
+}
+img.img-responsive.weee {
+    width: 75%;
+}
+img.img-responsive.lineee 
+{
+    width: 71%;
+}
+.finve 
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+
+@media only screen and (max-width: 1024px)
+{
+    #primary 
+    {
+        background-image: url(../../images/homepage/sampleback.png);
+        background-size: cover;
+    }
+    .logo 
+    {
+        /* text-align: center !important; */
+        margin: auto;
+        margin-top: 448px !important;
+        margin-left: 10;
+        padding-left: 8px;
+        width: 19%;
+    }
+    .enjoy h1
+    {
+        color: #fff;
+        font-family: 'bignoodletitlingregular';
+        letter-spacing: 1px;
+        font-size: 114px ;
+        text-align: center !important;
+    }
+    .logo img 
+    {
+        /* text-align: center !important; */
+        margin: auto;
+        margin-top: 34% !important;
+        margin-left: 10;
+        padding-left: 8px;
+        width: 33%;
+    }
+    .Divisions 
+    {
+        padding-top: 5%;
+    }
+	
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px)
+{
+    .logo 
+    {
+        /* text-align: center !important; */
+        margin: auto;
+        margin-top: 384px;
+        margin-left: 10;
+        padding-left: 8px;
+        width: 19%;
+    }	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px)
+{
+    .logo img 
+    {
+        /* text-align: center !important; */
+        margin: auto;
+        margin-top: 83% !important;
+        margin-left: 10;
+        padding-left: 8px;
+        width: 83% !important;
+    }
+    .logo {
+        /* text-align: center !important; */
+        margin: auto;
+        margin-top: 451px !important;
+        margin-left: 10;
+        padding-left: 8px;
+        width: 19%;
+    }
+    .welcome img {
+        margin: auto;
+        padding-left: 0px !important;
+        margin-top: -16px;
+        width: 70%;
+    }
+    .enjoy h1 {
+        color: #fff;
+        font-family: 'bignoodletitlingregular';
+        letter-spacing: 1px;
+            font-size: 59px !important;
+        text-align: center;
+    }
+    .BoostExpress h1 {
+        color: #fff;
+        font-family: 'bignoodletitlingregular';
+        letter-spacing: 1px;
+        font-size: 62px;
+        text-align: center;
+        margin: 0;
+        /* position: relative; */
+        /* top: -18px; */
+    }
+    .welcome h2 {
+        text-align: center;
+        color: #fff;
+        font-family: 'bignoodletitlingregular';
+        font-size: 31px;
+        letter-spacing: 1px;
+    }
+    .welcome h1 {
+        text-align: center;
+        color: #fff;
+        font-family: 'bignoodletitlingregular';
+        font-size: 60px;
+        letter-spacing: 1px;
+    }
+    .man-a p {
+        margin: auto;
+        width: 82%;
+        color: #fff;
+        font-family: 'bignoodletitlingregular';
+        letter-spacing: 1px;
+        font-size: 17px;
+        text-align: center;
+        border-top: 2px solid #86642b;
+        padding-top: 15px;
+        margin-bottom: 18px;
+    }
+    .text p {
+        color: #fff;
+        font-family: 'bignoodletitlingregular';
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 18px;
+        border-bottom: 2px solid #86642b;
+        padding: 0 0 67px 0;
+        text-align: justify;
+        padding: 0 25px;
+    }
+    .enjoy img {
+        width: 65%;
+    }
+    #primary {
+        background-image: url(../../images/homepage/sampleback.png);
+        background-size: cover !important;
+    }
+    .Divisions {
+        padding-top: 15%;
+    }
+}
+
+@font-face 
+{
+    font-family: 'bignoodletitlingregular';
+    src: url('../../fonts/big_noodle_titling-webfont.woff2') format('woff2'),
+         url('../../fonts/big_noodle_titling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (max-device-width: 1024px) and (orientation: landscape) 
+{
+	
+	.logo img 
+    {
+    /* text-align: center !important; */
+    margin: auto;
+    margin-top: 16% !important;
+    margin-left: 10;
+    padding-left: 8px;
+    width: 33%;
+    }
+    .logo 
+    {
+        /* text-align: center !important; */
+        margin: auto;
+        margin-top: 365px !important;
+        margin-left: 10;
+        padding-left: 8px;
+        width: 19%;
+    }
+    .enjoy h1 {
+        color: #fff;
+        font-family: 'bignoodletitlingregular';
+        letter-spacing: 1px;
+        font-size: 93px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-device-width: 767px) and (orientation: landscape) 
+{
+	
+    .logo img 
+    {
+    /* text-align: center !important; */
+    margin: auto;
+    margin-top: 68% !important;
+    margin-left: 10;
+    padding-left: 8px;
+    width: 48% !important;
+    }
+}
+.text-bj
+{
+    color: #fff;
+    font-family: 'bignoodletitlingregular';
+    letter-spacing: 1px;
+    font-size:30px;
+    margin-top:10%;
+
+}
+

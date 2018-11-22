@@ -1,0 +1,64 @@
+body {
+     font-family: $general_font_family;
+     font-weight: $general_font_weight;
+     font-size: $general_font_size;
+     color: $general_font_color;
+     line-height: 1.42857;
+ }
+p{
+     line-height: $general_line_height;
+}
+h1{
+    font-family: $h1_font_family;
+    color: $h1_font_color;
+    font-size: $h1_font_size;
+}
+h2{
+    font-family: $h2_font_family;
+    color: $h2_font_color;
+    font-size: $h2_font_size;
+}
+h3{
+    font-family: $h3_font_family;
+    color: $h3_font_color;
+    font-size: $h3_font_size;
+}
+h4{
+    font-family: $h4_font_family;
+    color: $h4_font_color;
+    font-size: $h4_font_size;
+}
+h5{
+    font-family: $h5_font_family;
+    color: $h5_font_color;
+    font-size: $h5_font_size;
+}
+h6{
+    font-family: $h6_font_family;
+    color: $h6_font_color;
+    font-size: $h6_font_size;
+}
+.side-breadcrumb {
+    background-image: $breadcrumb_bg_image;
+    background-repeat: $breadcrumb_bg_repeat;
+    background-position: $breadcrumb_bg_position;
+    background-size: $breadcrumb_bg_size;
+    background-attachment: $breadcrumb_bg_attachment;
+}
+.breadcrumb_5.side-breadcrumb {
+    background-image: $breadcrumb_bg_image_5;
+    background-repeat: $breadcrumb_bg_repeat_5;
+    background-position: $breadcrumb_bg_position_5;
+    background-size: $breadcrumb_bg_size_5;
+    background-attachment: $breadcrumb_bg_attachment_5;
+}
+.footer-v1 {
+    background-image: $footer_bg_image;
+    background-repeat: $footer_bg_repeat;
+    background-position: $footer_bg_position;
+    background-size: $footer_bg_size;
+    background-attachment: $footer_bg_attachment;
+}
+.footer-v3 .footer-office{
+    background: $footer_bg_color;
+}

@@ -1,0 +1,18 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+/*****************************************************************/
+/*
+/*** 01. Bootstrap
+/*** 02. FontAwesome Icon
+/*** 03. Owl Carousel
+
+/*
+/*****************************************************************/
+
+$rtl: 0;
+
+@import "plugins/bootstrap/bootstrap"; 
+@import "plugins/fontawesome/font-awesome";
+@import "plugins/owlcarousel/owl.carousel";
+@import "plugins/nouislider/nouislider.min";

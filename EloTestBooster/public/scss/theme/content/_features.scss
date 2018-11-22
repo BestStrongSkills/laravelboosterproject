@@ -1,0 +1,129 @@
+/**
+ * 7.11 Features
+ */
+.icon_list_connector{
+	display: none !important;
+}
+.hidden-newsletter{
+	display: none !important;
+}
+.form-startup{
+	.hidden-startup{
+		display: none !important;
+	}
+	.hidden-newsletter{
+		display: block !important;
+	}
+}
+.smile_icon_list {
+  list-style: outside none none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+}
+.smile_icon_list.circle {
+  border: 0 none;
+  cursor: inherit;
+  float: none;
+  margin: 0;
+  width: auto;
+}
+.smile_icon_list li.icon_list_item {
+  clear: both !important;
+  line-height: 100%;
+  list-style: outside none none !important;
+  margin: 0 0 30px !important;
+  min-height: 1em !important;
+  overflow: visible;
+  padding: 0 !important;
+  position: relative !important;
+}
+.features {
+	background: url("../images/1920x920.jpg") no-repeat center center;
+	background-size: cover;
+	.title-block {
+	  padding-bottom: 50px;
+	}
+	&.bg-gradient{
+		position: relative;
+		&:before{
+			opacity: 0.85;
+			background: rgba(0, 0, 0, 0) linear-gradient(45deg, #700877 0%, #ff2759 100%, #ff2759 100%) repeat scroll 0 0;
+		}
+	}
+	.smile_icon_list.circle{
+		margin-top: 40px;
+	}
+	.smile_icon_list.with_bg {
+		&.left{
+			.icon_list_icon {
+				float: left;
+				margin-right: 23px;
+			}
+		}
+		&.right{
+			.icon_list_icon {
+				float: right;
+				margin-left: 23px;
+				margin-right: 0;
+			}
+			.icon_description{  
+				text-align: right;
+			}
+		}
+		.icon_list_icon {
+		  background: none;
+		  height: 72px;
+		  width: 72px;
+		  font-size: 20px !important;
+		  line-height: 72px;
+		  border-radius:50%;
+		  border:1px solid #fff;
+		  text-align: center;
+		  position: relative;
+		  color: #fff;
+		  margin-right: 25px;
+		  &:before{
+		  	border: 1px solid #ffffff;
+		    border-radius: 50%;
+		    content: "";
+		    height: 66px;
+		    left: 2px;
+		    position: absolute;
+		    top: 2px;
+		    width: 66px;
+		  }
+		}
+		.icon_list_item{
+			i{
+				margin-left: 2px;
+			}
+			&:hover{
+				.icon_list_icon{
+				  background: #fff;
+				  color: #e71173 !important;
+				}
+			}
+		}
+	}
+	.smile_icon_list li.icon_list_item{
+		margin-bottom: 80px !important;
+		.icon_description{
+			overflow: hidden;
+			margin-top: -3px;
+			h3{
+				text-transform: uppercase;
+				margin-bottom: 13px;
+				font-weight: 400;
+				line-height: 18px;
+				color: #fff;
+			}
+			p{
+				color: #fff;
+				line-height: 23px;
+				font-size: 14px;
+				margin: 0;
+			}
+		}
+	}
+}
